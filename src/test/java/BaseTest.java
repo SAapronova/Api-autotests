@@ -13,8 +13,7 @@ import static ru.alfabank.apiData.EndPoints.BASE_URL;
 public class BaseTest {
 
     @Test
-    public void baseTest()
-    {
+    public void baseTest() {
 
         RestAssured.requestSpecification = new RequestSpecBuilder()
                 .setBaseUri(BASE_URL)
@@ -28,12 +27,12 @@ public class BaseTest {
                 .build();
 
         given()
-                .body("").
+           .body("").
         when()
-                .post()
-                .then()
-                    .statusCode(200)
-                    .assertThat().body(matchesJsonSchemaInClasspath("init.json"));
+           .post().
+        then()
+           .statusCode(200)
+           .assertThat().body(matchesJsonSchemaInClasspath("init.json"));
     }
 
 }
