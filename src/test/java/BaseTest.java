@@ -4,12 +4,15 @@ import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import com.epam.reportportal.junit5.ReportPortalExtension;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static ru.alfabank.apiData.EndPoints.BASE_PATH;
 import static ru.alfabank.apiData.EndPoints.BASE_URL;
 
+@ExtendWith(ReportPortalExtension.class)
 public class BaseTest {
 
     @Test
