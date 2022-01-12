@@ -1,0 +1,8 @@
+# ��������
+
+*.jpg binary
+*.png binary
+*.exe binary
+
+*.xls diff=excel
+

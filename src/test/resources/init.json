@@ -1,0 +1,656 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "appId": {
+      "type": "string"
+    },
+    "draftId": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "string"
+    },
+    "asn": {
+      "type": "null"
+    },
+    "gaId": {
+      "type": "null"
+    },
+    "scenarioId": {
+      "type": "null"
+    },
+    "platformId": {
+      "type": "null"
+    },
+    "appStatus": {
+      "type": "null"
+    },
+    "accessCardNumber": {
+      "type": "null"
+    },
+    "accessCardAccount": {
+      "type": "null"
+    },
+    "accessCardStatus": {
+      "type": "null"
+    },
+    "aclickStatus": {
+      "type": "null"
+    },
+    "amobileStatus": {
+      "type": "null"
+    },
+    "prefillCardId": {
+      "type": "null"
+    },
+    "cardId": {
+      "type": "null"
+    },
+    "passportCheckStatus": {
+      "type": "null"
+    },
+    "terrorismCheckStatus": {
+      "type": "null"
+    },
+    "blackListCheckStatus": {
+      "type": "null"
+    },
+    "repRiskCheckStatus": {
+      "type": "null"
+    },
+    "passportSeries": {
+      "type": "null"
+    },
+    "passportNumber": {
+      "type": "null"
+    },
+    "passportIssueDate": {
+      "type": "null"
+    },
+    "passportOfficeCode": {
+      "type": "null"
+    },
+    "passportOffice": {
+      "type": "null"
+    },
+    "passportBirthDate": {
+      "type": "null"
+    },
+    "passportBirthPlace": {
+      "type": "null"
+    },
+    "branch": {
+      "type": "null"
+    },
+    "citizenship": {
+      "type": "string"
+    },
+    "codeWord": {
+      "type": "null"
+    },
+    "isConsentConfirmed": {
+      "type": "null"
+    },
+    "consentDate": {
+      "type": "null"
+    },
+    "consentId": {
+      "type": "null"
+    },
+    "sopdIds": {
+      "type": "null"
+    },
+    "customerAccounts": {
+      "type": "null"
+    },
+    "customerInn": {
+      "type": "null"
+    },
+    "customerManager": {
+      "type": "null"
+    },
+    "customerRegistrationStatus": {
+      "type": "null"
+    },
+    "customerType": {
+      "type": "null"
+    },
+    "deliveryAddress": {
+      "type": "null"
+    },
+    "deliveryDate": {
+      "type": "null"
+    },
+    "deliverySlotFrom": {
+      "type": "null"
+    },
+    "deliverySlotTo": {
+      "type": "null"
+    },
+    "deliveryComment": {
+      "type": "null"
+    },
+    "deliveryDateTime": {
+      "type": "null"
+    },
+    "education": {
+      "type": "null"
+    },
+    "email": {
+      "type": "null"
+    },
+    "embossingName": {
+      "type": "null"
+    },
+    "eqId": {
+      "type": "null"
+    },
+    "firstName": {
+      "type": "null"
+    },
+    "hasAmobileConnection": {
+      "type": "null"
+    },
+    "hasAclickConnection": {
+      "type": "null"
+    },
+    "isSalaryCustomer": {
+      "type": "null"
+    },
+    "isVip": {
+      "type": "boolean"
+    },
+    "lastName": {
+      "type": "null"
+    },
+    "livingCountry": {
+      "type": "null"
+    },
+    "maritalStatus": {
+      "type": "null"
+    },
+    "middleName": {
+      "type": "null"
+    },
+    "mobilePhone": {
+      "type": "null"
+    },
+    "isNameChanged": {
+      "type": "boolean"
+    },
+    "prevFirstName": {
+      "type": "null"
+    },
+    "prevLastName": {
+      "type": "null"
+    },
+    "prevMiddleName": {
+      "type": "null"
+    },
+    "snilsDocNumber": {
+      "type": "null"
+    },
+    "obtainingRegionCode": {
+      "type": "null"
+    },
+    "obtainingCityCode": {
+      "type": "null"
+    },
+    "obtainingCityKladr": {
+      "type": "null"
+    },
+    "nearestMetro": {
+      "type": "null"
+    },
+    "obtainingOffice": {
+      "type": "null"
+    },
+    "originDeliveryType": {
+      "type": "null"
+    },
+    "deliveryType": {
+      "type": "null"
+    },
+    "operLogin": {
+      "type": "null"
+    },
+    "prefillPackageId": {
+      "type": "null"
+    },
+    "packageService": {
+      "type": "null"
+    },
+    "packageId": {
+      "type": "null"
+    },
+    "currentContract": {
+      "type": "null"
+    },
+    "contractId": {
+      "type": "null"
+    },
+    "identityDocDate": {
+      "type": "null"
+    },
+    "identityDocNumber": {
+      "type": "null"
+    },
+    "identityDocSeries": {
+      "type": "null"
+    },
+    "identityDocOffice": {
+      "type": "null"
+    },
+    "identityDocOfficeCode": {
+      "type": "null"
+    },
+    "identityDocType": {
+      "type": "null"
+    },
+    "identityDocTerminationDate": {
+      "type": "null"
+    },
+    "isChangedPassport": {
+      "type": "boolean"
+    },
+    "passportSeriesOld": {
+      "type": "null"
+    },
+    "passportNumberOld": {
+      "type": "null"
+    },
+    "identityDocOldDate": {
+      "type": "null"
+    },
+    "identityDocOldSeries": {
+      "type": "null"
+    },
+    "identityDocOldType": {
+      "type": "null"
+    },
+    "regCountry": {
+      "type": "string"
+    },
+    "regAddressCountry": {
+      "type": "null"
+    },
+    "regFlat": {
+      "type": "null"
+    },
+    "regHouse": {
+      "type": "null"
+    },
+    "regBuilding": {
+      "type": "null"
+    },
+    "regPhone": {
+      "type": "null"
+    },
+    "regRegionCode": {
+      "type": "null"
+    },
+    "regRegionName": {
+      "type": "null"
+    },
+    "regArea": {
+      "type": "null"
+    },
+    "regStreetName": {
+      "type": "null"
+    },
+    "regSettlementName": {
+      "type": "null"
+    },
+    "regZip": {
+      "type": "null"
+    },
+    "isAddressEquals": {
+      "type": "null"
+    },
+    "livingFlat": {
+      "type": "null"
+    },
+    "livingBuilding": {
+      "type": "null"
+    },
+    "livingHouse": {
+      "type": "null"
+    },
+    "livingPhone": {
+      "type": "null"
+    },
+    "livingRegionCode": {
+      "type": "null"
+    },
+    "livingRegionName": {
+      "type": "null"
+    },
+    "livingArea": {
+      "type": "null"
+    },
+    "livingStreetName": {
+      "type": "null"
+    },
+    "livingSettlementName": {
+      "type": "null"
+    },
+    "livingZip": {
+      "type": "null"
+    },
+    "residentCountry": {
+      "type": "null"
+    },
+    "isRusResident": {
+      "type": "null"
+    },
+    "sex": {
+      "type": "null"
+    },
+    "workHRPhone": {
+      "type": "null"
+    },
+    "workCompanyName": {
+      "type": "null"
+    },
+    "workStatus": {
+      "type": "null"
+    },
+    "workStatusName": {
+      "type": "null"
+    },
+    "workPost": {
+      "type": "null"
+    },
+    "workPhone": {
+      "type": "null"
+    },
+    "workInn": {
+      "type": "null"
+    },
+    "workExperience": {
+      "type": "null"
+    },
+    "workEmail": {
+      "type": "null"
+    },
+    "workStartDate": {
+      "type": "null"
+    },
+    "isCourierSend": {
+      "type": "boolean"
+    },
+    "isVerifySmsSend": {
+      "type": "boolean"
+    },
+    "isSmsVerified": {
+      "type": "boolean"
+    },
+    "cardOrderId": {
+      "type": "null"
+    },
+    "currency": {
+      "type": "null"
+    },
+    "bonusNumber": {
+      "type": "null"
+    },
+    "wargamingCobrand": {
+      "type": "boolean"
+    },
+    "isEmbossingEnabled": {
+      "type": "boolean"
+    },
+    "cardEmbossed": {
+      "type": "boolean"
+    },
+    "cardStatus": {
+      "type": "string"
+    },
+    "updatedTime": {
+      "type": "string"
+    },
+    "clientCusFromEq": {
+      "type": "null"
+    },
+    "prospectCusFromEq": {
+      "type": "null"
+    },
+    "abTest": {
+      "type": "null"
+    },
+    "offerCode": {
+      "type": "null"
+    },
+    "prefillContractId": {
+      "type": "null"
+    },
+    "userLogin": {
+      "type": "null"
+    },
+    "redirectChecks": {
+      "type": "null"
+    },
+    "hasCodeWord": {
+      "type": "boolean"
+    },
+    "esiaStatus": {
+      "type": "null"
+    },
+    "esiaCallbackStatus": {
+      "type": "null"
+    },
+    "plasticId": {
+      "type": "null"
+    },
+    "totalAccountsBalance": {
+      "type": "null"
+    },
+    "unnamedCard": {
+      "type": "null"
+    },
+    "refProgram": {
+      "type": "null"
+    },
+    "refId": {
+      "type": "null"
+    },
+    "fromEmailDraft": {
+      "type": "boolean"
+    },
+    "deliveryUuid": {
+      "type": "null"
+    },
+    "promoCode": {
+      "type": "null"
+    },
+    "productionType": {
+      "type": "null"
+    },
+    "redirectFromDT": {
+      "type": "null"
+    },
+    "brokerageAccountRequired": {
+      "type": "boolean"
+    },
+    "dtPath": {
+      "type": "null"
+    },
+    "scenarioPath": {
+      "type": "null"
+    },
+    "isWebView": {
+      "type": "null"
+    },
+    "approvedOperatorsOnly": {
+      "type": "null"
+    },
+    "clientRefuseMobileId": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "appId",
+    "draftId",
+    "createdTime",
+    "asn",
+    "gaId",
+    "scenarioId",
+    "platformId",
+    "appStatus",
+    "accessCardNumber",
+    "accessCardAccount",
+    "accessCardStatus",
+    "aclickStatus",
+    "amobileStatus",
+    "prefillCardId",
+    "cardId",
+    "passportCheckStatus",
+    "terrorismCheckStatus",
+    "blackListCheckStatus",
+    "repRiskCheckStatus",
+    "passportSeries",
+    "passportNumber",
+    "passportIssueDate",
+    "passportOfficeCode",
+    "passportOffice",
+    "passportBirthDate",
+    "passportBirthPlace",
+    "branch",
+    "citizenship",
+    "codeWord",
+    "isConsentConfirmed",
+    "consentDate",
+    "consentId",
+    "sopdIds",
+    "customerAccounts",
+    "customerInn",
+    "customerManager",
+    "customerRegistrationStatus",
+    "customerType",
+    "deliveryAddress",
+    "deliveryDate",
+    "deliverySlotFrom",
+    "deliverySlotTo",
+    "deliveryComment",
+    "deliveryDateTime",
+    "education",
+    "email",
+    "embossingName",
+    "eqId",
+    "firstName",
+    "hasAmobileConnection",
+    "hasAclickConnection",
+    "isSalaryCustomer",
+    "isVip",
+    "lastName",
+    "livingCountry",
+    "maritalStatus",
+    "middleName",
+    "mobilePhone",
+    "isNameChanged",
+    "prevFirstName",
+    "prevLastName",
+    "prevMiddleName",
+    "snilsDocNumber",
+    "obtainingRegionCode",
+    "obtainingCityCode",
+    "obtainingCityKladr",
+    "nearestMetro",
+    "obtainingOffice",
+    "originDeliveryType",
+    "deliveryType",
+    "operLogin",
+    "prefillPackageId",
+    "packageService",
+    "packageId",
+    "currentContract",
+    "contractId",
+    "identityDocDate",
+    "identityDocNumber",
+    "identityDocSeries",
+    "identityDocOffice",
+    "identityDocOfficeCode",
+    "identityDocType",
+    "identityDocTerminationDate",
+    "isChangedPassport",
+    "passportSeriesOld",
+    "passportNumberOld",
+    "identityDocOldDate",
+    "identityDocOldSeries",
+    "identityDocOldType",
+    "regCountry",
+    "regAddressCountry",
+    "regFlat",
+    "regHouse",
+    "regBuilding",
+    "regPhone",
+    "regRegionCode",
+    "regRegionName",
+    "regArea",
+    "regStreetName",
+    "regSettlementName",
+    "regZip",
+    "isAddressEquals",
+    "livingFlat",
+    "livingBuilding",
+    "livingHouse",
+    "livingPhone",
+    "livingRegionCode",
+    "livingRegionName",
+    "livingArea",
+    "livingStreetName",
+    "livingSettlementName",
+    "livingZip",
+    "residentCountry",
+    "isRusResident",
+    "sex",
+    "workHRPhone",
+    "workCompanyName",
+    "workStatus",
+    "workStatusName",
+    "workPost",
+    "workPhone",
+    "workInn",
+    "workExperience",
+    "workEmail",
+    "workStartDate",
+    "isCourierSend",
+    "isVerifySmsSend",
+    "isSmsVerified",
+    "cardOrderId",
+    "currency",
+    "bonusNumber",
+    "wargamingCobrand",
+    "isEmbossingEnabled",
+    "cardEmbossed",
+    "cardStatus",
+    "updatedTime",
+    "clientCusFromEq",
+    "prospectCusFromEq",
+    "abTest",
+    "offerCode",
+    "prefillContractId",
+    "userLogin",
+    "redirectChecks",
+    "hasCodeWord",
+    "esiaStatus",
+    "esiaCallbackStatus",
+    "plasticId",
+    "totalAccountsBalance",
+    "unnamedCard",
+    "refProgram",
+    "refId",
+    "fromEmailDraft",
+    "deliveryUuid",
+    "promoCode",
+    "productionType",
+    "redirectFromDT",
+    "brokerageAccountRequired",
+    "dtPath",
+    "scenarioPath",
+    "isWebView",
+    "approvedOperatorsOnly",
+    "clientRefuseMobileId"
+  ]
+}
