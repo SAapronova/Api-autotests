@@ -22,6 +22,7 @@ project.ext {
 
 
 dependencies {
+    implementation 'org.projectlombok:lombok:1.18.18'
     testImplementation group: 'io.rest-assured', name: 'rest-assured', version: restAssuredVersion
     testImplementation group: 'io.rest-assured', name: 'json-path', version: restAssuredVersion
     testImplementation group: 'io.rest-assured', name: 'json-schema-validator', version: restAssuredVersion
@@ -31,6 +32,12 @@ dependencies {
 
     implementation group: 'com.epam.reportportal', name: 'logger-java-log4j', version: reportPortalVersion
     implementation group: 'com.epam.reportportal', name: 'agent-java-junit5', version: reportPortalVersion
+
+
+
+        // https://projectlombok.org
+    compileOnly 'org.projectlombok:lombok:1.18.4'
+    annotationProcessor 'org.projectlombok:lombok:1.18.4'
 
 
 }

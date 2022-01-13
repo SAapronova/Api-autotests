@@ -1,3 +1,4 @@
+import POJO.Issue;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -9,6 +10,7 @@ import com.epam.reportportal.junit5.ReportPortalExtension;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+import static org.hamcrest.core.IsEqual.equalTo;
 import static ru.alfabank.apiData.EndPoints.BASE_PATH;
 import static ru.alfabank.apiData.EndPoints.BASE_URL;
 
@@ -17,6 +19,8 @@ public class BaseTest {
 
     @Test
     public void baseTest() {
+
+        Issue issue=new Issue();
 
         RestAssured.requestSpecification = new RequestSpecBuilder()
                 .setBaseUri(BASE_URL)
@@ -30,12 +34,14 @@ public class BaseTest {
                 .build();
 
         given()
+                .queryParam("constantid","FICCBI20220113000239")
+               // .pathParam("constantid","FICCBI20220113000239")
            .body("").
         when()
-           .post().
+           .get().
         then()
            .statusCode(200)
-           .assertThat().body(matchesJsonSchemaInClasspath("init.json"));
+                .assertThat().body("I000000001",equalTo(issue.getAgentCode()));
     }
 
 }
