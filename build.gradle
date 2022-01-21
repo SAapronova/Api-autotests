@@ -19,13 +19,24 @@ project.ext {
     jUnitVersion = '5.8.2'
     reportPortalVersion = '5.1.0'
 }
+repositories {
+    mavenLocal()
+    maven { url "http://binary/artifactory/epam-reportportal/" }
+    maven { url "http://binary/artifactory/public" }
+    maven { url "http://binary/artifactory/thirdparty" }
+    maven { url "http://binary/artifactory/Autotests" }
+}
 
 
 dependencies {
     implementation 'org.projectlombok:lombok:1.18.18'
-    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: restAssuredVersion
-    testImplementation group: 'io.rest-assured', name: 'json-path', version: restAssuredVersion
-    testImplementation group: 'io.rest-assured', name: 'json-schema-validator', version: restAssuredVersion
+    implementation group: 'io.rest-assured', name: 'rest-assured', version: restAssuredVersion
+    implementation group: 'io.rest-assured', name: 'json-path', version: restAssuredVersion
+    implementation group: 'io.rest-assured', name: 'json-schema-validator', version: restAssuredVersion
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    implementation group: 'io.rest-assured', name: 'rest-assured', version: '4.4.0'
+    implementation group: 'ru.alfabank.tests', name: 'bank-steps', version: '1.4.8'
+
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: jUnitVersion
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: jUnitVersion
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: jUnitVersion
@@ -40,6 +51,10 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.4'
 
 
+}
+
+dependencies {
+    compile(group: 'ru.alfabank.tests', name: 'bank-steps', version: '1.4.8')
 }
 
 group = 'ru.alfabank.api_autotests'

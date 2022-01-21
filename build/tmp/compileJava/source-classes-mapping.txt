@@ -1,0 +1,48 @@
+dto/Authorization/ResponseAuthorization.java
+ dto.Authorization.ResponseAuthorization
+dto/CreateApplication/ProfileDraft/ActualAddress.java
+ dto.CreateApplication.ProfileDraft.ActualAddress
+dto/CreateApplication/ProfileDraft/Document.java
+ dto.CreateApplication.ProfileDraft.Document
+dto/CreateApplication/ProfileInfoFlecs/BkiInfo.java
+ dto.CreateApplication.ProfileInfoFlecs.BkiInfo
+dto/CreateApplication/PostStatusResponse.java
+ dto.CreateApplication.PostStatusResponse
+ru/alfabank/apiData/EndPoints.java
+ ru.alfabank.apiData.EndPoints
+dto/CreateApplication/ProfileDraft/PersonalDataGetResponse.java
+ dto.CreateApplication.ProfileDraft.PersonalDataGetResponse
+dto/CreateApplication/ProfileInfoFlecs/ApplicationTechInfo.java
+ dto.CreateApplication.ProfileInfoFlecs.ApplicationTechInfo
+utils/CreateApplication.java
+ utils.CreateApplication
+dto/CreateApplication/ProfileDraft/ContactPerson.java
+ dto.CreateApplication.ProfileDraft.ContactPerson
+dto/CreateApplication/ProfileInfoFlecs/Document.java
+ dto.CreateApplication.ProfileInfoFlecs.Document
+dto/CreateApplication/forMetadata/MetadataResponse.java
+ dto.CreateApplication.forMetadata.MetadataResponse
+dto/CreateApplication/ProfileDraft/RegistrationAddress.java
+ dto.CreateApplication.ProfileDraft.RegistrationAddress
+dto/CreateApplication/forDeliveryState/DeliveryInfo.java
+ dto.CreateApplication.forDeliveryState.DeliveryInfo
+dto/CreateApplication/forDeliveryState/DeliveryState.java
+ dto.CreateApplication.forDeliveryState.DeliveryState
+dto/CreateApplication/ProfileDraft/Client.java
+ dto.CreateApplication.ProfileDraft.Client
+dto/CreateApplication/forCreateBodyUpdateDelivetyState/BodyDeliveryState.java
+ dto.CreateApplication.forCreateBodyUpdateDelivetyState.BodyDeliveryState
+dto/CreateApplication/ProfileInfoFlecs/ApplicationProfile.java
+ dto.CreateApplication.ProfileInfoFlecs.ApplicationProfile
+dto/CreateApplication/ProfileDraft/ApplicationDraft.java
+ dto.CreateApplication.ProfileDraft.ApplicationDraft
+dto/Authorization/RequestAuthorization.java
+ dto.Authorization.RequestAuthorization
+dto/CreateApplication/ProfileDraft/Employment.java
+ dto.CreateApplication.ProfileDraft.Employment
+dto/CreateApplication/forCreateApplication/ResponseCreateApplication.java
+ dto.CreateApplication.forCreateApplication.ResponseCreateApplication
+dto/CreateApplication/ProfileDraft/Spouse.java
+ dto.CreateApplication.ProfileDraft.Spouse
+dto/Authorization/Token.java
+ dto.Authorization.Token
