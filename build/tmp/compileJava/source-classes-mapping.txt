@@ -1,48 +1,89 @@
-dto/Authorization/ResponseAuthorization.java
- dto.Authorization.ResponseAuthorization
 dto/CreateApplication/ProfileDraft/ActualAddress.java
  dto.CreateApplication.ProfileDraft.ActualAddress
-dto/CreateApplication/ProfileDraft/Document.java
- dto.CreateApplication.ProfileDraft.Document
 dto/CreateApplication/ProfileInfoFlecs/BkiInfo.java
  dto.CreateApplication.ProfileInfoFlecs.BkiInfo
 dto/CreateApplication/PostStatusResponse.java
  dto.CreateApplication.PostStatusResponse
-ru/alfabank/apiData/EndPoints.java
- ru.alfabank.apiData.EndPoints
-dto/CreateApplication/ProfileDraft/PersonalDataGetResponse.java
- dto.CreateApplication.ProfileDraft.PersonalDataGetResponse
-dto/CreateApplication/ProfileInfoFlecs/ApplicationTechInfo.java
- dto.CreateApplication.ProfileInfoFlecs.ApplicationTechInfo
-utils/CreateApplication.java
- utils.CreateApplication
-dto/CreateApplication/ProfileDraft/ContactPerson.java
- dto.CreateApplication.ProfileDraft.ContactPerson
-dto/CreateApplication/ProfileInfoFlecs/Document.java
- dto.CreateApplication.ProfileInfoFlecs.Document
+dto/CreateApplication/forDeliveryState/DeliveryState.java
+ dto.CreateApplication.forDeliveryState.DeliveryState
+dto/Authorization/RequestAuthorization.java
+ dto.Authorization.RequestAuthorization
+dto/UpdateApplication/Spouse.java
+ dto.UpdateApplication.Spouse
+ dto.UpdateApplication.Spouse$SpouseBuilder
 dto/CreateApplication/forMetadata/MetadataResponse.java
  dto.CreateApplication.forMetadata.MetadataResponse
 dto/CreateApplication/ProfileDraft/RegistrationAddress.java
  dto.CreateApplication.ProfileDraft.RegistrationAddress
 dto/CreateApplication/forDeliveryState/DeliveryInfo.java
  dto.CreateApplication.forDeliveryState.DeliveryInfo
-dto/CreateApplication/forDeliveryState/DeliveryState.java
- dto.CreateApplication.forDeliveryState.DeliveryState
+dto/Authorization/ResponseAuthorization.java
+ dto.Authorization.ResponseAuthorization
 dto/CreateApplication/ProfileDraft/Client.java
  dto.CreateApplication.ProfileDraft.Client
-dto/CreateApplication/forCreateBodyUpdateDelivetyState/BodyDeliveryState.java
- dto.CreateApplication.forCreateBodyUpdateDelivetyState.BodyDeliveryState
+dto/UpdateApplication/UpdateResponse.java
+ dto.UpdateApplication.UpdateResponse
 dto/CreateApplication/ProfileInfoFlecs/ApplicationProfile.java
  dto.CreateApplication.ProfileInfoFlecs.ApplicationProfile
+dto/CreateApplication/forCreateBodyUpdateDelivetyState/BodyDeliveryState.java
+ dto.CreateApplication.forCreateBodyUpdateDelivetyState.BodyDeliveryState
+dto/CreateApplication/ProfileInfoFlecs/Document.java
+ dto.CreateApplication.ProfileInfoFlecs.Document
+dto/CreateApplication/ProfileDraft/ContactPerson.java
+ dto.CreateApplication.ProfileDraft.ContactPerson
+dto/Authorization/Token.java
+ dto.Authorization.Token
 dto/CreateApplication/ProfileDraft/ApplicationDraft.java
  dto.CreateApplication.ProfileDraft.ApplicationDraft
-dto/Authorization/RequestAuthorization.java
- dto.Authorization.RequestAuthorization
-dto/CreateApplication/ProfileDraft/Employment.java
- dto.CreateApplication.ProfileDraft.Employment
 dto/CreateApplication/forCreateApplication/ResponseCreateApplication.java
  dto.CreateApplication.forCreateApplication.ResponseCreateApplication
 dto/CreateApplication/ProfileDraft/Spouse.java
  dto.CreateApplication.ProfileDraft.Spouse
-dto/Authorization/Token.java
- dto.Authorization.Token
+dto/CreateApplication/ProfileDraft/Document.java
+ dto.CreateApplication.ProfileDraft.Document
+ru/alfabank/apiData/EndPoints.java
+ ru.alfabank.apiData.EndPoints
+dto/CreateApplication/ProfileDraft/Employment.java
+ dto.CreateApplication.ProfileDraft.Employment
+dto/CreateApplication/ProfileDraft/PersonalDataGetResponse.java
+ dto.CreateApplication.ProfileDraft.PersonalDataGetResponse
+dto/CreateApplication/ProfileInfoFlecs/ApplicationTechInfo.java
+ dto.CreateApplication.ProfileInfoFlecs.ApplicationTechInfo
+dto/UpdateApplication/ActualAddress.java
+ dto.UpdateApplication.ActualAddress
+ dto.UpdateApplication.ActualAddress$ActualAddressBuilder
+dto/UpdateApplication/UpdateApplication.java
+ dto.UpdateApplication.UpdateApplication
+ dto.UpdateApplication.UpdateApplication$UpdateApplicationBuilder
+dto/UpdateApplication/WorkPoint.java
+ dto.UpdateApplication.WorkPoint
+ dto.UpdateApplication.WorkPoint$WorkPointBuilder
+dto/UpdateApplication/GraceProduct.java
+ dto.UpdateApplication.GraceProduct
+ dto.UpdateApplication.GraceProduct$GraceProductBuilder
+dto/UpdateApplication/RegistrationAddress.java
+ dto.UpdateApplication.RegistrationAddress
+ dto.UpdateApplication.RegistrationAddress$RegistrationAddressBuilder
+dto/UpdateApplication/ContactPerson.java
+ dto.UpdateApplication.ContactPerson
+ dto.UpdateApplication.ContactPerson$ContactPersonBuilder
+dto/UpdateApplication/Employment.java
+ dto.UpdateApplication.Employment
+ dto.UpdateApplication.Employment$EmploymentBuilder
+dto/UpdateApplication/DocumentList.java
+ dto.UpdateApplication.DocumentList
+ dto.UpdateApplication.DocumentList$DocumentListBuilder
+dto/UpdateApplication/Client.java
+ dto.UpdateApplication.Client
+ dto.UpdateApplication.Client$ClientBuilder
+dto/UpdateApplication/LogisticsCenter.java
+ dto.UpdateApplication.LogisticsCenter
+ dto.UpdateApplication.LogisticsCenter$LogisticsCenterBuilder
+dto/UpdateApplication/CreditCardProduct.java
+ dto.UpdateApplication.CreditCardProduct
+ dto.UpdateApplication.CreditCardProduct$CreditCardProductBuilder
+dto/UpdateApplication/Address.java
+ dto.UpdateApplication.Address
+ dto.UpdateApplication.Address$AddressBuilder
+utils/CreateApplication.java
+ utils.CreateApplication

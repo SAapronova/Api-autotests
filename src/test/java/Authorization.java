@@ -31,8 +31,8 @@ public class Authorization {
                 .then().log().all()
                 .extract().as(ResponseAuthorization.class);
 
-        String cookie=response.getData().getToken();
-        System.out.println(cookie);
-        return cookie;
+        String token=response.getData().getToken();
+        System.out.println(token);
+        return token;
     }
 }

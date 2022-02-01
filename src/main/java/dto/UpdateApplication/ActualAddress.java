@@ -1,6 +1,12 @@
 package dto.UpdateApplication;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Builder
+@Data
 public class ActualAddress {
     public String areaCode;
     public Object areaName;

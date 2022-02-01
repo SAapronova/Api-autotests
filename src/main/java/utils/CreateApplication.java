@@ -24,6 +24,7 @@ public class CreateApplication {
     private static String createApplicationCourierUrl = resolveVars("https://testjmb.alfabank.ru/logistics-api/alfaform-generation-application-to-flecs-api/applications/create");
     private static String getUrl = resolveVars("https://testjmb.alfabank.ru/logistics-api/alfaform-eo-flow-api/applications?constantId=");
     private static String stage = "";
+    private static String appId="";
 
     // Данный блок используется для обеспечения правильной работы глобальной перменной при многопоточном запуске
     private static final ThreadLocal<String> globalConstantId = new  ThreadLocal<>();
@@ -34,6 +35,10 @@ public class CreateApplication {
 
     public final static void setGlobalConstantId(String globalConstant) {
         globalConstantId.set(globalConstant);
+    }
+
+    public final static String getGlobalAppId() {
+        return appId;
     }
 
     public void getCourierMasterCardApplication(String constantID) throws IOException, InterruptedException {
@@ -57,6 +62,7 @@ public class CreateApplication {
                     .get(url)
                     .as(ApplicationProfile.class);
             stage = applicationProfile.getStage();
+            appId=applicationProfile.getAppId();
         }
         //akitaScenario.setVar(constantID, newConstant);
         setGlobalConstantId(newConstant);

@@ -2,6 +2,10 @@ package dto.UpdateApplication;
 
 import java.util.ArrayList;
 
+import lombok.*;
+
+@Builder
+@Data
 public class UpdateApplication {
     public String appLength;
     public String productType;
